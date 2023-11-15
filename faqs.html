@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>eduCare - English Language Center</title>
+    <link rel="shortcut icon" href="./assets/img/sm-logo.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body
+    class="font-poppins min-w-sm-430px min-w-md-1024px max-w-lg-1024px mx-auto"
+  >
+    <header
+      class="position-fixed top-0 min-w-sm-full min-w-bet-full min-w-md-1024px max-w-lg-1024px z-100"
+    >
+      <nav
+        class="navbar navbar-expand-md max-h-md-63px bg-body-tertiary bg-opacity-75 backdrop-blur"
+      >
+        <div class="container-xl container-fluid px-3">
+          <a class="navbar-brand" href="index.html">
+            <img src="./assets/img/logo.svg" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Classes
+                  <img width="16" src="./assets/img/next.png" alt="down-icon">
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="a1.html">A1 Elementary</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="a2.html"
+                      >A2 Pre-intermediate</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="./b1.html">B1 Intermediate</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">B2 Upper Intermediate</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">C1 Advanced</a></li>
+                  <li><a class="dropdown-item" href="#">C2 Proficient</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Business English</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">IELTS Exam Preparation</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="review.html">Review</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-color1" href="faqs.html">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main
+      class="container-xl px-3 position-relative max-w-md-758px top-60px top-md-63px"
+    >
+      <div class="fw-semibold text-20px lineHeight-32px text-center mt-32px">
+        Frequently Asked Questions
+      </div>
+      <div class="accordion mt-32px" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button bg-color2 text-18px fw-medium lineHeight-30px collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              What are the entry requirements for enrolling in your English
+              language courses?
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample1"
+          >
+            <div class="accordion-body text-18px fw-medium lineHeight-30px">
+              Entry requirements vary by course level. Generally, a placement
+              test helps determine the appropriate class based on your current
+              proficiency.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mt-20px" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button bg-color1 text-18px fw-medium lineHeight-30px collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="true"
+              aria-controls="collapseTwo"
+            >
+              Are your instructors certified and experienced in teaching English
+              as a second language?
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample2"
+          >
+            <div class="accordion-body text-18px fw-medium lineHeight-30px">
+              Yes, our instructors are certified professionals with extensive
+              experience in teaching English to non-native speakers.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mt-20px" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button bg-color2 text-18px fw-medium lineHeight-30px collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="true"
+              aria-controls="collapseThree"
+            >
+              What is the average class size, and how do you ensure personalized
+              attention?
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample3"
+          >
+            <div class="accordion-body text-18px fw-medium lineHeight-30px">
+              Class sizes are kept small for interactive learning. Our focus on
+              individualized attention and participation fosters effective
+              language development.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mt-20px" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button bg-color1 text-18px fw-medium lineHeight-30px collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="true"
+              aria-controls="collapseFour"
+            >
+              Do you offer specialized courses, such as business English or exam
+              preparation?
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample4"
+          >
+            <div class="accordion-body text-18px fw-medium lineHeight-30px">
+              Yes, we offer specialized courses like business English, exam
+              preparation (TOEFL, IELTS), and more to cater to various language
+              learning needs.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mt-20px" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button bg-color2 text-18px fw-medium lineHeight-30px collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="true"
+              aria-controls="collapseFive"
+            >
+              What teaching methods do you employ to help students improve their
+              speaking and listening skills?
+            </button>
+          </h2>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample5"
+          >
+            <div class="accordion-body text-18px fw-medium lineHeight-30px">
+              Our curriculum emphasizes communicative activities, role-play, and
+              real-world simulations. Interactive sessions and practical
+              exercises enhance speaking and listening proficiency.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mt-20px" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button bg-color1 text-18px fw-medium lineHeight-30px collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSix"
+              aria-expanded="true"
+              aria-controls="collapseSix"
+            >
+              Can I join your classes if English is not my first language?
+            </button>
+          </h2>
+          <div
+            id="collapseSix"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample6"
+          >
+            <div class="accordion-body text-18px fw-medium lineHeight-30px">
+              Absolutely, our classes are designed for learners of all language
+              backgrounds. We cater to students looking to improve their English
+              skills.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mt-20px" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button bg-color2 text-18px fw-medium lineHeight-30px collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSeven"
+              aria-expanded="true"
+              aria-controls="collapseSeven"
+            >
+              What is the duration of your courses, and how often do they run?
+            </button>
+          </h2>
+          <div
+            id="collapseSeven"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample7"
+          >
+            <div class="accordion-body text-18px fw-medium lineHeight-30px">
+              Course durations vary, typically from a few weeks to a few months.
+              We offer flexible schedules, with classes running on weekdays and
+              weekends.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mt-20px" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button bg-color1 text-18px fw-medium lineHeight-30px collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseEight"
+              aria-expanded="true"
+              aria-controls="collapseEight"
+            >
+              Do you provide study materials and resources, and are there
+              opportunities for practice outside of class?
+            </button>
+          </h2>
+          <div
+            id="collapseEight"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample8"
+          >
+            <div class="accordion-body text-18px fw-medium lineHeight-30px">
+              Yes, we offer comprehensive study materials, and we encourage
+              students to practice through homework assignments, online
+              resources, and language exchange events.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mt-20px" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button bg-color2 text-18px fw-medium lineHeight-30px collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseNine"
+              aria-expanded="true"
+              aria-controls="collapseNine"
+            >
+              What benefits do your language courses offer beyond language
+              proficiency?
+            </button>
+          </h2>
+          <div
+            id="collapseNine"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample9"
+          >
+            <div class="accordion-body text-18px fw-medium lineHeight-30px">
+              In addition to language skills, our courses promote cultural
+              understanding, critical thinking, and enhanced communication for
+              personal and professional growth.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mt-20px mb-32px" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button bg-color1 text-18px fw-medium lineHeight-30px collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTen"
+              aria-expanded="true"
+              aria-controls="collapseTen"
+            >
+              How do I know which course level is right for me?
+            </button>
+          </h2>
+          <div
+            id="collapseTen"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample10"
+          >
+            <div class="accordion-body text-18px fw-medium lineHeight-30px">
+              We offer placement tests that assess your current language skills.
+              Based on the results, we recommend the appropriate course level to
+              suit your abilities.
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer
+      class="bg-color3 h-185px h-md-127px mt-46px mt-md-0 d-md-flex align-items-center position-relative top-60px top-md-63px"
+    >
+      <div class="d-md-flex align-items-center">
+        <img class="px-16px pt-17px pt-md-0" src="./assets/img/logo.svg" alt="" />
+        <div class="px-16px mt-17px mt-md-0 position-md-relative top-md-12px">
+          <p class="fw-medium text-14px text-md-16px text-white">
+            © 2023 eduCare English Language Center
+          </p>
+          <p
+            class="fw-medium text-14px text-md-16px text-white position-relative -top-10px top-md-0"
+          >
+            All rights reserved.
+          </p>
+        </div>
+      </div>
+      <div
+        class="ms-16px ms-md-auto pe-md-16px mb-20px mb-md-0 d-flex align-items-start g-12px g-md-17px"
+      >
+        <a href="#" class="Tooltip">
+          <i class="fa-brands fa-facebook fa-30px fa-md-41px fa-white"></i>
+          <span class="tooltip-text tooltip-fb">Facebook</span>
+        </a>
+        <a href="#" class="Tooltip">
+          <i class="fa-brands fa-instagram fa-30px fa-md-41px fa-white"></i>
+          <span class="tooltip-text tooltip-ig">Instagram</span>
+        </a>
+        <a href="#" class="Tooltip">
+          <i class="fa-brands fa-telegram fa-30px fa-md-41px fa-white"></i>
+          <span class="tooltip-text tooltip-tel">Telegram</span>
+        </a>
+        <a href="#" class="Tooltip">
+          <img width="30" class="w-md-41px" src="./assets/img/web.png" alt="" />
+          <span class="tooltip-text tooltip-web">Website</span>
+        </a>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
